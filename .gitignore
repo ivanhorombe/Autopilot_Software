@@ -1,0 +1,29 @@
+# Python / Virtual Environments
+venv/
+.venv/
+env/
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Anaconda / Conda
+.conda/
+conda-meta/
+
+# IDEs (VS Code & Mac)
+.vscode/
+.DS_Store
+Thumbs.db
+
+# Project Specifics (Big Data)
+data/*.jpg
+data/*.png
+data/*.csv
+models/*.tflite
+models/*.h5
+
+# Hardware / PlatformIO
+.pio/
+build/
+.fpkg/
